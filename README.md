@@ -49,7 +49,7 @@ gulp.task("test", function(done){
 
 		files		: getInitialScripts().concat([
 			"lib/angular-mocks/angular-mocks.js",
-			"js/**/*-test.js",
+			"app/**/*-test.js",
 			"templates/**/*.html"
 		]),
 
